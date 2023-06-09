@@ -1,10 +1,11 @@
-body
-{   position: relative;
+body {
+    position: relative;
     width: auto;
     background: #FFFFFF;
 }
-p
-{font-family: 'Century Gothic';
+
+p {
+    font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -13,65 +14,67 @@ p
     align-items: center;
     text-align: center;
     color: #1E1079;
-    text-decoration: none;}
-.nav
-{
-position: absolute;
-width: 100%;
-height: 90px;
-left: 0px;
-top: 0px;
-display: flex;
-justify-content:space-around ;
-
-
-background: #1E1079;
+    text-decoration: none;
 }
 
-.label img
-{
-    
- 
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-around;
+
+
+    background: #1E1079;
+}
+
+.label img {
+
+
     width: 100;
     height: 100px;
     left: 20px;
     top: 10px;
-  
-    border-radius: 33px; 
+
+    border-radius: 33px;
     display: flex;
     align-items: center;
     text-align: center;
-  
+
 
 }
 
 .label {
-  
+
     width: 174px;
     height: 46px;
     background: #FFFFFF;
     border-radius: 33px;
     margin: 15px 0px;
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
 
 
-.zagolovok
-{position: absolute;
+.zagolovok {
+    position: absolute;
     width: 1350px;
     height: 162px;
     left: 20px;
     top: 105px;
-    
+
     background: rgba(39, 19, 164, 0.9);
     border-radius: 33px;
 
 
 }
-.z1{position: absolute;
+
+.z1 {
+    position: absolute;
     width: 1336px;
     height: 132px;
     left: 27px;
@@ -82,8 +85,27 @@ background: #1E1079;
     font-size: 30pt;
     line-height: 45px;
     display: flex;
-    align-items: center;
-    text-align: center;
     text-decoration: none;
     color: #FFFFFF;
-    }
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.news {
+    position: absolute;
+    background: rgba(47, 27, 192, 0.9);
+    border-radius: 33px;
+}
+
+.new1 {
+    position: absolute;
+    top: 10px;
+    color: #000;
+    background: #FFFFFF;
+    border-radius: 33px;
+}
