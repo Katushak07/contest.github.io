@@ -96,10 +96,21 @@ p {
 }
 
 #n1 {
+    font-family: 'Century Gothic';
+    font-style: normal;
     color: rgba(47, 27, 192, 0.9);
     font-weight: 700;
 }
+#text1{font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 
+    color: #000000;}
 .news {
     position: absolute;
     display: flex;
@@ -109,16 +120,7 @@ p {
     border: 20px solid rgba(47, 27, 192, 0.9);
     background-color: white;
     padding: 10px;
-    font-family: 'Century Gothic';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 37px;
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #000000;
+    
 }
 
 .new1 {
