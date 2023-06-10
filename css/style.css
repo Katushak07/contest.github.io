@@ -132,6 +132,7 @@ p {
     font-style: initial;
     color: rgba(47, 27, 192, 0.9);
     font-weight: 900;
+    font-size: 20pt;
 }
 
 #text1 {
@@ -159,6 +160,7 @@ p {
     padding: 10px;
     width: auto;
     margin: 5px 150px;
+    text-align: center;
 
 
 }
