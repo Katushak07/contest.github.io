@@ -21,29 +21,23 @@ p {
     position: absolute;
     width: 100%;
     height: auto;
-    left: 0px;
-    top: 0px;
     display: flex;
     justify-content: space-around;
-
-
+    align-items: center;
+    text-align: center;
     background: #1E1079;
 }
 
-.label img {
-
-
-    width: 100;
+.label img 
+{
+    width: 100px;
     height: 100px;
     left: 20px;
     top: 10px;
-
     border-radius: 33px;
     display: flex;
     align-items: center;
-    text-align: center;
-
-
+  
 }
 
 .label {
@@ -62,20 +56,12 @@ p {
 
 .zagolovok {
     position: absolute;
-    width: 100%;
-    height: 157px;
-    margin: 100px 0px 30px;
+    width: auto;  
+    height: auto;
+    margin: 100px 30px;
     padding: 2px;
     background: rgba(39, 19, 164, 0.9);
     border-radius: 33px;
-
-
-}
-
-.z1 {
-    position: absolute;
-    width: 100%;
-    height: auto;
     left: 27px;
     top: 9px;
     font-family: 'Century Gothic';
@@ -86,7 +72,10 @@ p {
     display: flex;
     text-decoration: none;
     color: #FFFFFF;
+
 }
+
+
 
 .page {
     display: flex;
