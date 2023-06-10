@@ -126,3 +126,34 @@ p {
     display: flex;
     flex-direction: row;
 }
+
+.line {
+    height: 5px;
+    width: 100%;
+    writing-mode: vertical-rl;
+  }
+  
+  .line1 {
+    background-color: #1E1079;
+  }
+  
+  .line2 {
+    background-color: #2713A4;
+    
+  }
+  
+  .line3 {
+    background-color: #2F1BC0;
+
+  }
+  
+  .line4 {
+    background-color: #4224FF;
+  }
+  
+  .line:not(:last-child) {
+  
+
+    margin-bottom: 1px;
+  }
+  
