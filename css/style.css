@@ -168,7 +168,8 @@ p {
     background-color: white;
     padding: 10px;
     width: auto;
-    margin: 5px 130px;
+    margin: 5px 0px;
+    width: 85%;
     text-align: center;
 
 
