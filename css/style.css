@@ -165,7 +165,7 @@ p {
     background-color: white;
     padding: 10px;
     width: auto;
-    margin: 5px 120px;
+    margin: 5px 110px;
     text-align: center;
 
 
@@ -208,43 +208,33 @@ p {
 }
 
 
-.line {
-    height:100%;
+#wrap {
+    position:absolute;
     width: 100%;
-    margin: 2px;
+    height: 250%;
     display: flex;
-
-
-   /* transform: rotate(-90deg); */
-    
+    flex-direction: row;
+    justify-content: end;
+  }
+  
+  .line {
+    height: auto;
+    width: 5px;
+    margin: 2px;
   }
   
   .line1 {
-    border: 5px solid#1E1079 ;
-    background-color: #1E1079;
-     
+    border: 5px solid#1E1079;
   }
   
   .line2 {
-    border: 5px solid #2713A4 ;
-    background-color: #2713A4;
-   
+    border: 5px solid #2713a4;
   }
   
   .line3 {
-    border: 5px solid #2F1BC0;
-    background-color: #2F1BC0;
-  
+    border: 5px solid #2f1bc0;
   }
   
   .line4 {
-    border: 5px solid #4224FF ;
-    background-color: #4224FF;
-   
+    border: 5px solid #4224ff;
   }
-  
-  /* .line:not(:last-child) {
-    margin-right: 10px;
-    transform: rotate(-90deg);
-
-  } */
