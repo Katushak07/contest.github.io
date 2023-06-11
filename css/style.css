@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* width: 100%; */
+    height: auto;
     /* background-image: url(Wireframe\ -\ 2.png); */
     /* width:  1420px;
     left: -25px; */
@@ -84,6 +84,7 @@ p {
     color: #FFFFFF;
 
 }
+
 #end {
     /* position: absolute; */
     /* width: auto;
@@ -104,13 +105,14 @@ p {
     color: #FFFFFF;
 
 }
+
 #end1 {
     /* position: absolute; */
     /* width: auto;
     height: auto; */
     margin: 5px 30px;
     padding: 15px 30px;
-   
+
     border-radius: 33px;
     font-family: 'Century Gothic';
     font-style: normal;
@@ -165,29 +167,39 @@ p {
     background-color: white;
     padding: 10px;
     width: auto;
-    margin: 5px 110px;
+    margin: 5px 150px;
     text-align: center;
 
 
 }
 
 
-#image1{
+#image1 {
     display: flex;
     flex-direction: column;
     margin: 2px;
 }
-#imgcou{
-    margin-left: 260px;
+
+#imgcou {
+    margin: 0px 240px;
+    
 }
-#image{
+
+#imgweb1{
+    margin-left: 230px;
+}
+#imgweb2{
+    margin-left: 50px;
+}
+
+#image {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     padding: 2px;
-    
+
 }
 
 .new1 {
@@ -209,32 +221,32 @@ p {
 
 
 #wrap {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 250%;
     display: flex;
     flex-direction: row;
     justify-content: end;
-  }
-  
-  .line {
+}
+
+.line {
     height: auto;
     width: 5px;
     margin: 2px;
-  }
-  
-  .line1 {
+}
+
+.line1 {
     border: 5px solid#1E1079;
-  }
-  
-  .line2 {
+}
+
+.line2 {
     border: 5px solid #2713a4;
-  }
-  
-  .line3 {
+}
+
+.line3 {
     border: 5px solid #2f1bc0;
-  }
-  
-  .line4 {
+}
+
+.line4 {
     border: 5px solid #4224ff;
-  }
+}
