@@ -58,6 +58,7 @@ p {
     background: #FFFFFF;
     border-radius: 33px;
     margin: 15px 0px;
+
     display: flex;
 
     justify-content: center;
@@ -167,7 +168,7 @@ p {
     background-color: white;
     padding: 10px;
     width: auto;
-    margin: 5px 150px;
+    margin: 5px 130px;
     text-align: center;
 
 
